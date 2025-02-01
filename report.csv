@@ -1,0 +1,13 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1738411742632,1171,Login User,200,OK,Thread Group 1-1,text,true,,1262,322,1,1,https://thinking-tester-contact-list.herokuapp.com/users/login,1171,0,837
+1738411743804,275,Add New Contact,201,Created,Thread Group 1-1,text,true,,1073,874,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts,275,0,0
+1738411744080,825,GET Contact lists,200,OK,Thread Group 1-1,text,true,,91993,555,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts,309,0,0
+1738411744905,276,GET Contact,200,OK,Thread Group 1-1,text,true,,1056,580,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts/679d7759a0a3cf001331d8f5,276,0,0
+1738411745182,270,PUT Contact list,200,OK,Thread Group 1-1,text,true,,1064,898,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts/679d8020b17a440013b98947,270,0,0
+1738411745452,274,PATCH Contact list,200,OK,Thread Group 1-1,text,true,,1066,619,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts/679d8020b17a440013b98947,274,0,0
+1738411745726,275,DELETE Contact list,200,OK,Thread Group 1-1,text,true,,1066,619,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts/679d8020b17a440013b98947,275,0,0
+1738411746001,2949,Transaction Contact Controller,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-1,,true,,4265,3064,1,1,null,0,0,0
+1738411746303,271,Add New Contact,201,Created,Thread Group 1-1,text,true,,1069,928,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts,271,0,0
+1738411747491,295,PUT Contact list,200,OK,Thread Group 1-1,text,true,,1064,898,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts/679d8020b17a440013b98947,295,0,0
+1738411748088,286,PATCH Contact list,200,OK,Thread Group 1-1,text,true,,1066,619,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts/679d8020b17a440013b98947,286,0,0
+1738411748681,269,DELETE Contact list,200,OK,Thread Group 1-1,text,true,,1066,619,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts/679d8020b17a440013b98947,269,0,0
